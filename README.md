@@ -8,7 +8,6 @@
 
  - You could also be using a virtual host to serve the web app. Apache example:
 
-        # ReservaCanhcas
         <VirtualHost *:80>
             DocumentRoot /var/www/trivimovie.com/web
             ServerName local.trivimovie.com
@@ -34,6 +33,10 @@
  - Inside the cloned repository (or exctracted), composer must be executed to install vendors
 
         $ ./composer.phar install => This will take a while
+    
+ - Create `uploads` folder, where to store images
+
+        mkdir web/uploads
     
  - Generate assets files (optional):
 

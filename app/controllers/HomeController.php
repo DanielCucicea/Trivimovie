@@ -69,9 +69,9 @@ class HomeController extends BaseController {
     }
 
     /**
-     * asdadasdasdas asd asd a
-     * @param type $url 
-     * @return type
+     * [getData description]
+     * @param  [type] $url
+     * @return [type]
      */
     private function getData($url)
     {
